@@ -11,6 +11,6 @@
     <title>Login Success Page</title>
 </head>
 <body>
-Logged in.
+Logged in with email: <%= request.getAttribute("email")%>
 </body>
 </html>
